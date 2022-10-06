@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-template",
+  "version": "1.0.0",
+  "description": "A Hello World HTTP server",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://44.194.70.211:7990/scm/cloud/nodejs-test"
+  },
+  "keywords": [
+    "node",
+    "docker",
+    "dockerfile"
+  ],
+  "dependencies": {
+    "mysql": ">=2.5.0"
+  },
+  "author": "ahmad@cloudify.co",
+  "license": "ISC",
+  "devDependencies": { "test": ">=0.6.0" }
+}
